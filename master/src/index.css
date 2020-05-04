@@ -1,0 +1,87 @@
+header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background: #6441a5;
+  background: -webkit-linear-gradient(to right, #2a0845, #644aA5);
+  background: linear-gradient(to right, #2a0845, #644aa5);
+}
+header > img {
+  height: 80%;
+  margin-left: 10%;
+}
+.meme > img {
+  width: 30%;
+  height: 30%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.meme{
+  position: relative;
+  
+
+}
+.top{
+  position: absolute;
+  top: 18px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  text-shadow: 2px 2px whitesmoke;
+}
+.bottom{
+  position: absolute;
+  bottom: 18px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  text-shadow: 2px 2px whitesmoke;
+}
+
+body{
+  background-color: whitesmoke;
+}
+.todo-list{
+  background-color: white;
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #efefef;
+  box-shadow: 
+  0 1px 1px rgb(0,0,0,0.15),
+  0 10px 0 -5px #eee,
+  0 10px 1px -4px rgb(0,0,0,0.15),
+  0 20px 0 -10px #eee,
+  0 20px 1px -9px rgb(0,0,0,0.15);
+  padding: 30px;
+}
+.todo-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 20px 0;
+  width: 70%;
+  border-bottom: 1px solid #cecece;
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: #333333;
+}
+input[type=checkbox]{
+  margin-right: 10px;
+  font-size: 30px;
+}
+input[type=checkbox]:focus{
+  outline: 0;
+}
+
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
